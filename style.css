@@ -4,12 +4,19 @@
    box-sizing: border-box;
 }
 
+body {
+   background-image: url('https://www.multimediaplayer.it/wp-content/uploads/sicurezza-password.jpg');
+}
+
 #password {
    font-size: 25px;
    text-align: center;
    width: 40%;
    padding: 80px;
    color: white;
-   margin: 0 auto;
+   position: relative;
+   top: 50vh;
+   left: 50vw;
+   transform: translate(-50%, -50%);
    background-color: black;
 }
