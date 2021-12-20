@@ -31,4 +31,4 @@ console.log (userColor);
 const userPassword = document.getElementById("password");
 
 // punto 5
-userPassword.innerText = "La tua password è :" + userName + userSurname + userColor + 21;
+userPassword.innerText = "La tua password è :" + ' ' + userName + userSurname + userColor + 21;
