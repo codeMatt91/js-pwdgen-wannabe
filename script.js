@@ -22,3 +22,13 @@ console.log (userName);
 // punto 2
 const userSurname = prompt("Qual'è il tuo cognome")
 console.log (userSurname);
+
+// punto 3
+const userColor = prompt("Qual'è il tuo colore preferito?");
+console.log (userColor);
+
+// punto 4
+const userPassword = document.getElementById("password");
+
+// punto 5
+userPassword.innerText = "La tua password è :" + userName + userSurname + userColor + 21;
